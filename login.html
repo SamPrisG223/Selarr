@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./selar.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <title>Login - Selar</title>
+</head>
+<body>
+
+    <style>
+
+        html{
+              font-family: DM Sans,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+             line-height: 1.5;
+            }
+
+body{
+    margin: 0;
+}
+
+        .wrapper{
+            display: block;
+        }
+        .logindiv{                       
+            position: absolute;
+            top: 200px;
+            left: 30%;
+        }
+        form{
+            display: block;
+            background-color:white;
+            border: 0.1px solid grey;
+            text-align: center;
+            border-radius: 10px;
+            border
+        }
+        .labelselar{
+            font-size: 30px;            
+           
+            font: inherit;
+        }
+
+        .account{
+            margin-top: 50px;
+        }
+        .menubar ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login{
+    color: rgb(97, 11, 84);
+}
+
+.startselling{
+    background-color: rgb(97, 11, 84);
+    color: white;
+}
+    </style>
+
+    <div class="wrapper"> 
+    <div class="menu">
+        <div class="imgselar" style="margin-left: 30px;">
+            <img src="./imgfolder/selar-logo-small (1).png" width="60" height="60" alt="selarlogo">
+        </div>
+        <div class="menubar">
+            <ul>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Features <i class="fa fa-angle-down faicon"></i> </a></li>
+                <li><a href="#">Learn <i class="fa fa-angle-down faicon"></i> </a>
+                    <div class="learn">
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Youtube & Creator Academy</a></li>
+                            <li><a href="#">Guides</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="log">
+            <a href="./login.html" class="login">Log in</a>
+            <button class="startselling">Start Selling</button>
+        </div>
+    </div>
+    
+        <div class="logindiv">
+            <form class="loginform">
+                <label class="labelselar">Log in to Selar</label>
+                <div class="account">
+                    <label for="account">Don't have an account?</label>
+                    <a href="#">Create one for free</a>
+                </div>
+                <div class="user">
+                    <label for="username">Username or Email</label>
+                    <input type="text" type="email" placeholder="Username or Email address">                                  
+                </div>
+                <div class="password">
+                    <label for="password">Username or Email</label>
+                    <input type="password" > <span>Show</span>
+                    <a href="#">Forgot your password</a>
+                </div>
+                <div class="btnlogin">
+                    <button>Log in</button> <span>or continue with </span>                            
+                </div>
+                <div class="socialmedia">                                    
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
