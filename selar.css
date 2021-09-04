@@ -254,6 +254,91 @@ display: block;
    border-radius: 25%;
 }
 
+.demo{
+    width:450px;
+    height: 700px;
+    display: block;
+    object-position: center;
+}
+
+.bodydiv{
+    display: block;
+}
+
+
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.pimg {
+    display: block;        
+}
+
+.pimg img{
+    width: 60px;
+}
+
+.pimg img:nth-child(2){
+    position: relative;
+    right: 15px;
+}
+
+.pimg img:nth-child(3){
+    position: relative;
+    right: 15px;
+}
+
+.people label {
+    display: block;        
+    
+    font-size: 18px;
+    margin: 10px auto;
+   width: 380px;
+}
+
+.people span{
+    color: rgb(90, 11, 77);
+    font-weight: 500;
+}
+
+.label2{
+    display: block;
+    margin: 150px auto; 
+    width: 450px;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.act{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.activity{
+    margin: 50px auto;
+}
+
+.activity a{
+    text-decoration: none;
+    color: rgb(49, 31, 31);
+    display: flex;
+}
+
+.activity label{
+    margin-left: 40px;
+}
+
+
+
 @media (max-width:765px) {
 
 .menubar{
@@ -269,29 +354,7 @@ padding: 20px;
         cursor: pointer;   
     }
 
-.infoblock{
-    
-}
 
-    .info{
-        
-        
-       
-    }
-
-    .info button{
-       
-              
-    }
-    
-    .h5div{
-        
-    }
-
-    .info h5{
-       
-        
-    }
     
     .psell{
         font-size: 34px;
@@ -299,18 +362,12 @@ padding: 20px;
         line-height: 38px;
     }
     
-    p2{
-        
-    }                               
+                                   
     .psell2 {
        width: 450px;
         
     }
-    
-    .startselling2{
-        
-    }
-    
+       
     .startselling, .startselling2{
         cursor: pointer;
     }
@@ -320,62 +377,7 @@ padding: 20px;
         display: block;
     }
 
-    .demo{
-        width:450px;
-        height: 700px;
-        display: block;
-        object-position: center;
-    }
-
-    .bodyy{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .people{
-        display: block;
-        margin-top: 50px;
-    }
-
-    .pimg {
-        align-content: center;
-        justify-content: center;
-        display: flex;        
-    }
-
-    .pimg img{
-        width: 60px;
-    }
-
-    .pimg img:nth-child(2){
-        position: relative;
-        right: 15px;
-    }
-
-    .pimg img:nth-child(3){
-        position: relative;
-        right: 15px;
-    }
-
-    .people label {
-        display: block;        
-        
-        font-size: 20px;
-        margin: 10px auto;
-       width: 380px;
-    }
-
-    .people span{
-        color: rgb(90, 11, 77);
-        font-weight: 500;
-    }
-
-    .label2{
-        display: block;
-        margin: 100px auto; 
-        width: 380px;
-    }
+   
 
 }
 
